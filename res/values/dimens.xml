@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="RubricNameText">28sp</dimen>
+    <dimen name="ButtonText">25sp</dimen>
+    <dimen name="SimpleText">14sp</dimen>
+</resources>

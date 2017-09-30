@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/background"
+                android:orientation="vertical">
+
+    <TextView
+                android:id="@+id/tittle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/entry_tittle"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textSize="@dimen/RubricNameText"
+                android:layout_weight="0.1" android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:weightSum="1"
+            android:layout_margin="10dp"
+            android:gravity="center">
+        <FrameLayout
+                android:id="@+id/sample"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/db_update_text"
+            android:id="@+id/db_update" android:layout_weight="1" android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp" android:background="@drawable/button_blue"
+            android:textColor="@color/button_text_color" android:textSize="@dimen/ButtonText"/>
+</LinearLayout>

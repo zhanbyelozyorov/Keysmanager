@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="invalid_person_instruction_text" type="id"/>
+    <item name="security_fill_name" type="id"/>
+    <item name="password" type="id"/>
+</resources>

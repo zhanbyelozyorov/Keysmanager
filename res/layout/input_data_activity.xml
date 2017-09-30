@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/background" android:orientation="vertical">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical" android:layout_weight="0.7">
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/instruction"
+                    android:id="@+id/textView2"
+                    android:gravity="center_horizontal"
+                    android:layout_below="@+id/textView"
+                    android:textSize="@dimen/RubricNameText" android:textStyle="bold"/>
+        </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:layout_margin="10dp"
+            android:gravity="center">
+        <FrameLayout
+                android:id="@+id/sample1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" android:layout_weight="0.7" android:layout_marginTop="20dp"
+            >
+        <TextView
+                android:id="@+id/tittle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/input_data_tittle"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/RubricNameText"
+                android:layout_below="@+id/textView2"
+                android:textStyle="bold" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" android:layout_weight="2">
+        <AutoCompleteTextView
+                android:id="@+id/person_fill_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/input_data_full_name"
+                android:textSize="@dimen/ButtonText"
+                android:background="@drawable/edit_text_shape"
+                android:singleLine="true"
+                android:completionThreshold="1"
+                android:imeOptions="actionDone"
+                android:layout_margin="5dp" android:paddingLeft="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+    <Button
+                android:id="@+id/identification"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/input_data_identification"
+                android:textSize="@dimen/RubricNameText"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/button_text_color"
+                android:background="@drawable/button_blue"
+                android:layout_margin="5dp"/>
+    </LinearLayout>
+</LinearLayout>

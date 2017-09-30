@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@color/background" android:orientation="vertical"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://schemas.android.com/apk/res/android ">
+
+    <TextView android:id="@+id/tittle" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="@string/status_of_keys_tittle" android:gravity="center_horizontal"
+        android:textSize="@dimen/RubricNameText"
+        android:layout_marginTop="0dp" android:textStyle="bold" />
+    <GridView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/gridViewOfStatusKeys"
+        android:gravity="center" android:columnWidth="80dp" android:numColumns="auto_fit" android:layout_marginTop="20dp"
+        android:fastScrollEnabled="true" android:fastScrollAlwaysVisible="false" />
+
+
+</LinearLayout>

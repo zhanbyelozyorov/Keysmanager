@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Keys Manager</string>
+    <string name="key_number">Ключ №</string>
+    <string name="entry_tittle">Для входа поднесите бейдж к камере!</string>
+    <string name="entry_login_button">ВОЙТИ</string>
+    <string name="entry_password_hint">Пароль</string>
+    <string name="important_message">Важное сообщение!</string>
+    <string name="invalid_password">Не правильно введены данные! Повторить!</string>
+    <string name="invalid_QR_code">Не правильный бейдж!</string>
+    <string name="invalid_photo_text">ФОТО НЕ СООТВЕТСТВУЕТ!</string>
+    <string name="main_page_tittle">Главная страница</string>
+    <string name="main_page_status_of_key">СОСТОЯНИЕ КЛЮЧЕЙ</string>
+    <string name="main_page_operations_with_keys">Выдача, прием ключей</string>
+    <string name="status_of_keys_tittle">Состояние ключей</string>
+    <string name="identification_type_tittle">Выбор типа идентификации</string>
+    <string name="identification_type_qr_code">Считать QR-код</string>
+    <string name="identification_type_input_data">Ввести данные</string>
+    <string name="code_reading_tittle">Считывание кода</string>
+    <string name="input_data_tittle">Ввод данных вручную!</string>
+    <string name="input_data_full_name">Фамилия Имя Отчество</string>
+    <string name="input_data_identification">ВВЕСТИ ДАННЫЕ</string>
+    <string name="key_selection_tittle">Выбрать ключ</string>
+    <string name="identification_tittle">Сверьте фото!</string>
+    <string name="identification_last_name">Фамилия:</string>
+    <string name="identification_first_name">Имя:</string>
+    <string name="identification_middle_name">Отчество:</string>
+    <string name="identification_button">Выбрать ключ</string>
+    <string name="identification_image_description">Фотография</string>
+    <string name="key_status_changing_tittle">Смена состояния ключа</string>
+    <string name="key_status_changing_give">ВЫДАТЬ</string>
+    <string name="key_status_taken">ВЫДАН</string>
+    <string name="key_status_changing_get">ПРИНЯТЬ</string>
+    <string name="key_status_accept">ПРИНЯТ</string>
+    <string name="key_status_changing_lost">УТЕРЯН</string>
+    <string name="key_status_changing_found">НАЙДЕН</string>
+    <string name="instruction">Поднесите бейдж к камере!</string>
+    <string name="rescan">ПОВТОРИТЬ СКАНИРОВАНИЕ</string>
+    <string name="guard_change_text">ПЕРЕСМЕНА</string>
+    <string name="preview_journal">ПОСМОТРЕТЬ ЖУРНАЛ</string>
+    <string name="key_is_taken">Ключ уже выдан!</string>
+    <string name="key_is_accepted">Ключ уже принят!</string>
+    <string name="key_status_changed">Статус ключа изменен!</string>
+    <string name="alarm_on">Внимание! Поставьте на сигнализацию кабинет №</string>
+    <string name="alarm_off">Внимание! Снимите с сигнализации кабинет №</string>
+    <string name="db_update_text">Обновить БАЗУ ДАННЫХ!</string>
+    <string name="wait_please">Подождите пожалуйста</string>
+
+</resources>
